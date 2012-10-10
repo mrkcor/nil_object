@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.version       = "0.0.1"
   gem.authors       = ["Mark Kremer"]
   gem.email         = ["mark@without-brains.net"]
-  gem.description   = %q{Simple NullObject implementation}
+  gem.summary       = %q{Simple Null Object implementation}
   gem.homepage      = "https://github.com/mkremer/nil_object"
 
   gem.files         = `git ls-files`.split($/)
