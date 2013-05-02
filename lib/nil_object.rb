@@ -15,6 +15,10 @@ class NilObject
     ""
   end
 
+  def to_str
+    ""
+  end
+
   def to_i
     0
   end
