@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "nil_object"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Mark Kremer"]
   gem.email         = ["mark@without-brains.net"]
   gem.summary       = %q{Simple Null Object implementation}
