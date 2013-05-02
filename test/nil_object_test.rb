@@ -47,4 +47,8 @@ class NilObjectTest < MiniTest::Unit::TestCase
   def test_to_s_returns_empty_string
     assert_equal "", @nil_object.to_s
   end
+
+  def test_to_str_returns_empty_string
+    assert_equal "", @nil_object.to_str
+  end
 end
