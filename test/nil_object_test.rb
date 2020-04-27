@@ -1,6 +1,5 @@
-require "minitest/unit"
-require "minitest/autorun"
-require "nil_object"
+require 'minitest/autorun'
+require 'nil_object'
 
 class NilObjectTest < MiniTest::Unit::TestCase
   def setup
@@ -45,10 +44,10 @@ class NilObjectTest < MiniTest::Unit::TestCase
   end
 
   def test_to_s_returns_empty_string
-    assert_equal "", @nil_object.to_s
+    assert_equal '', @nil_object.to_s
   end
 
   def test_to_str_returns_empty_string
-    assert_equal "", @nil_object.to_str
+    assert_equal '', @nil_object.to_str
   end
 end
